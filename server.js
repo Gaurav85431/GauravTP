@@ -18,7 +18,7 @@ const errorMiddleware = require('./middleware/error-middleware');
 
 const corsOptions = {
   // origin: "http://localhost:5173", //if yaha se data aa rha hai to usko access de do
-  origin: "https://monumental-froyo-f8ab67.netlify.app/", //if yaha se data aa rha hai to usko access de do
+  origin: "https://monumental-froyo-f8ab67.netlify.app", //if yaha se data aa rha hai to usko access de do
   methods: 'GET, POST, DELETE, PATCH, HEAD',//5173 ko sv method ka access de do.
   credentials: true
 }
